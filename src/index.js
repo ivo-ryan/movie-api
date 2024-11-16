@@ -74,7 +74,7 @@ app.post("/user", async (req , res) => {
         })
 
        await user.save()
-       return res.send(user)
+       return res.send(user);
 });
 
 app.get("/user" , async (req , res) => {
