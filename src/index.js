@@ -79,7 +79,7 @@ app.post("/user", async (req , res) => {
 
 app.get("/user" , async (req , res) => {
     const user = await User.find()
-   return  res.send(user)
+   return  res.send(user);
 });
 
 
